@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sriracha&display=swap');
 :root {
     --cor0: #FFFFFF;
@@ -14,6 +14,7 @@
     --fonte-default: Arial, Verdana, Helvetica, Sans-serif;
     --fonte-destaque: 'Bebas', Sans-serif;
     --fonte-textos: 'Roboto Condensed', sans-serif;
+    --fonte-menu: 'Oswald', sans-serif;
 }
 
 * {
@@ -27,16 +28,41 @@ body {
  background-size: cover;
 }
 
+/*Menus superiores*/
+
 nav {
-    min-width: 350px;
-    max-width: 860px;
-    height: 30px;
+    min-width:530px;
+    max-width: 900px;
     margin: auto;
-    background-color: var(--cor6);
-    padding: 20px;
+    height: 50px;
+
 }
 
+nav a {
+    position: relative;
+    left: 20px;
+    top: 8px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-menu);
+    font-size: 1.3em;
+    color: var(--cor2);
+    border-radius: 5px;
 
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+
+nav img {
+    position: relative;
+    left: 40px;
+}
+
+/* Cabeçalho do site */
 header {
     position: relative;
     min-width: 350px;
@@ -96,17 +122,22 @@ header p {
     padding-right: 20px;
 }
 
+/*Corpo do site*/
 
 main {
-    background-color:var(--cor2);
+    background-image: url('../imgs/ColunaGrega-SemFundo.png');
     background-size: cover;
+    background-position: left top;
     min-width: 350px;
     max-width: 900px;
     margin: auto;
     margin-top: -60px;
 }
 
+/* Parte superior do corpo do site*/
+
 section.container-main {
+    background-color:#3d348bee;
     padding: 80px 10px 10px 10px;
 }
 
@@ -121,18 +152,19 @@ div.personal-container {
 
 div.personal-container > h3 {
     margin-bottom: 10px;
-    color: var(--cor3);
+    color: var(--cor2);
 }
 div.personal-container > h2 {
     margin-bottom: 20px;
-    color: var(--cor3);
+    color: var(--cor2);
 }
 
 div.personal-container > p {
-    color: var(--cor6);
+    color: var(--cor2);
     padding: 20px;
 }
 
+/* Parte inferior do corpo do site*/
 aside {
     display: flex;
     gap: 16px;
@@ -140,13 +172,17 @@ aside {
     flex-wrap: wrap;
     padding: 20px;
     padding-bottom: 20px;
+    margin-top: 85px;
     font-family: var(--fonte-textos);
 }
 
 .titulo-servicos {
     position: absolute;
-    color: var(--cor3);
+    bottom: 120px;
+    color: var(--cor2);
+    text-align: center;
 }
+/* Caixas Projetos, Blorgueirices e Exercícios*/
 
 div.trabalhos {
     width: 200px;
@@ -172,6 +208,9 @@ div.trabalhos > a {
     padding: 10px 0px;
 
 }
+
+/* Caixas "Explorar" */
+
 #status1 {
     background-color: var(--cor3);
     color: var(--cor0);
@@ -206,17 +245,17 @@ div.trabalhos > a {
 }
 
 .trabalhos:hover {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: var(--cor0);
 }
 
 .trabalhos:hover h2 {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: var(--cor0);
 }
 
 .trabalhos:hover p {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: var(--cor0);
 }
 
@@ -236,7 +275,7 @@ div.trabalhos > a {
 }
 
 footer {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     min-width: 350px;
     max-width: 900px;
     color: var(--cor0);
