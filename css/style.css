@@ -31,6 +31,10 @@ body {
 /*Menus superiores*/
 
 nav {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: var(--cor6);
     min-width:530px;
     max-width: 900px;
     margin: auto;
@@ -38,10 +42,12 @@ nav {
 
 }
 
+nav img {
+    width: 40px;
+    padding: 10px 30px;
+}
+
 nav a {
-    position: relative;
-    left: 20px;
-    top: 8px;
     text-decoration: none;
     text-align: center;
     padding: 10px;
@@ -57,12 +63,8 @@ nav a:hover {
     color: var(--cor4);
 }
 
-nav img {
-    position: relative;
-    left: 40px;
-}
-
 /* Cabeçalho do site */
+
 header {
     position: relative;
     min-width: 350px;
@@ -78,7 +80,7 @@ header {
     box-shadow: 2px 2px 8px var(--cor6);
 }
 
-section.container {
+.container-header {
     background-color: rgba(0, 0, 0, 0.336);
     height: 100%;
     border-bottom-left-radius: 70px;
@@ -176,7 +178,7 @@ aside {
     font-family: var(--fonte-textos);
 }
 
-.titulo-servicos {
+.titulo-miscelanea {
     width: 900px;
     margin: auto;
     color: var(--cor2);
@@ -184,7 +186,7 @@ aside {
 }
 /* Caixas Projetos, Blorgueirices e Exercícios*/
 
-div.trabalhos {
+div.miscelanea {
     width: 200px;
     height: 250px;
     background-color:var(--cor4);
@@ -195,16 +197,16 @@ div.trabalhos {
     padding: 20px;
 }
 
-div.trabalhos > a > img {
+div.miscelanea > a > img {
     width: 30px;
     padding: 20px;
 }
 
-div.trabalhos > a {
+div.miscelanea > a {
     text-decoration: none;
     color: var(--cor6);
 }
-.descricao-trabalhos {
+.descricao-box {
     padding: 10px 0px;
 
 }
@@ -244,17 +246,17 @@ div.trabalhos > a {
     padding: 20px;
 }
 
-.trabalhos:hover {
+.miscelanea:hover {
     background-color: var(--cor2);
     color: var(--cor0);
 }
 
-.trabalhos:hover h2 {
+.miscelanea:hover h2 {
     background-color: var(--cor2);
     color: var(--cor0);
 }
 
-.trabalhos:hover p {
+.miscelanea:hover p {
     background-color: var(--cor2);
     color: var(--cor0);
 }
