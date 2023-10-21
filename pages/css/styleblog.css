@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+:root {
+    --cor3: white;
+    --cor6: black;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: var(--cor6);
+    min-width:530px;
+    max-width: 900px;
+    margin: auto;
+    height: 50px;
+    color: white;
+
+}
+
+nav img {
+    width: 40px;
+    padding: 10px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-menu);
+    font-size: 1.3em;
+    color: var(--cor2);
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
