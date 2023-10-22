@@ -151,6 +151,18 @@ article p {
     background-color: var(--cor0);
 }
 
+.conteudo p {
+    margin-bottom: 15px;
+}
+
+ol {
+    padding-left: 100px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-family: var(--fonte-textos);
+    line-height: 2;
+}
+
 footer {
     background-color: var(--cor4);
     min-width: 350px;
