@@ -164,7 +164,7 @@ a.externo::after {
 }
 
 ol {
-    padding-left: 100px;
+    padding-left: 50px;
     margin-bottom: 20px;
     font-size: 1em;
     font-family: var(--fonte-textos);
