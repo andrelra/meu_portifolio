@@ -210,10 +210,12 @@ ol {
 
 #descricao-foto {
     position: relative;
-    top: 150px;
+    top: 130px;
     color: var(--cor0);
     padding: 10px;
     text-align: center;
+    line-height: 1;
+    font-style: italic;
 }
 
 footer {
