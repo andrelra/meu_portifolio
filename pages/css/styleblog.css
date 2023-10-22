@@ -137,14 +137,15 @@ article p {
     margin-bottom: 20px;
 }
 #livro {
-    display: flex;
     margin: auto;
     width: 200px;
+    border: 1px solid black;
 }
 
 #container-titulo {
     padding: 10px;
     text-align: center;
+    border: 1px solid black;
 
 }
 #container-titulo h1 {
