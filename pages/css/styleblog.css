@@ -132,13 +132,13 @@ article p {
 }
 
 #livro {
-    width: 200px;
+    width: 150px;
     padding-left: 20px;
     
 }
 
 #container-titulo {
-    margin: auto;
+    margin-left: 80px;
     padding: 10px;
 }
 
