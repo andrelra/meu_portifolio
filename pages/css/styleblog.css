@@ -133,7 +133,8 @@ article p {
 
 #livro {
     width: 200px;
-    margin-right: 10px;
+    padding-left: 20px;
+    
 }
 
 #container-titulo {
