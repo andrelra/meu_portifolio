@@ -110,7 +110,6 @@ main {
     background-color: var(--cor3);
     min-width: 320px;
     max-width: 900px;
-    height: 50%;
     margin: auto;
 }
 
@@ -118,12 +117,6 @@ article {
     padding: 20px;
     text-align: justify;
 }
-
-article h1 {
-    color: var(--cor0);
-    text-shadow: 1px 1px 0px black;
-}
-
 
 article p {
     line-height: 2em;
@@ -135,19 +128,19 @@ article p {
 #container-principal-titulo {
     display: flex;
     margin-bottom: 20px;
+    text-align: center;
 }
+
 #livro {
-    margin: auto;
     width: 200px;
-    border: 1px solid black;
+    margin-right: 10px;
 }
 
 #container-titulo {
+    margin: auto;
     padding: 10px;
-    text-align: center;
-    border: 1px solid black;
-
 }
+
 #container-titulo h1 {
     font-family: var(--fonte-menu);
     font-size: 2em;
@@ -155,6 +148,7 @@ article p {
     padding-bottom: 10px;
     padding-top: 20px;
     text-shadow: 1px 1px 0px black;
+    
 }
 
 #container-titulo h2 {
@@ -198,25 +192,28 @@ ol {
     line-height: 2;
 }
 
+/* Foto do autor do texto e informações sobre ele */
+
 #autor {
     display: flex;
+
+    margin-top: 10px;
 }
 
 #foto {
-    width: 250px;
+    max-width: 250px;
     position: relative;
     top: 20px;
-
 }
 
 #descricao-foto {
-    position: relative;
-    top: 130px;
+    width: 500px;
     color: var(--cor0);
-    padding: 10px;
+    padding: 100px 20px;
     text-align: center;
     line-height: 1;
     font-style: italic;
+  
 }
 
 footer {
