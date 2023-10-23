@@ -128,17 +128,17 @@ article p {
 #container-principal-titulo {
     display: flex;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 #livro {
     width: 150px;
     padding-left: 20px;
+    margin-right: 10px;
     
 }
 
 #container-titulo {
-    margin-left: 80px;
+    
     padding: 10px;
 }
 
