@@ -64,7 +64,6 @@ nav {
 }
 
 #menu {
-    margin-right: 20px;
     margin-top: 5px;
 }
 
@@ -92,15 +91,17 @@ header {
 }
 
 .container-header {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.336);
     height: 100%;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;    
 }
 .foto {
-    margin: auto;
-    margin-top:60px;
-    margin-bottom: 20px;
     width: 150px;
     border-radius: 50%;
     box-shadow: 1px 1px 2px var(--cor6);
@@ -121,18 +122,15 @@ header p {
 }
 
 .redessociais {
-    margin: auto;
-    width: 500px;
     padding-top: 10px;
 }
 .redessociais > a > img {
     width: 30px;
-    padding-right: 20px;
+    padding: 10px;
 }
 
 .redessociais > img {
     width: 30px;
-    padding-right: 20px;
 }
 
 /*Corpo do site*/
