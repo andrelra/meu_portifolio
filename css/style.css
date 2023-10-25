@@ -31,36 +31,47 @@ body {
 /*Menus superiores*/
 
 nav {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
     background-color: var(--cor6);
     min-width:530px;
     max-width: 900px;
+    width: 100%;
     margin: auto;
     height: 50px;
 
 }
 
-nav img {
-    width: 40px;
-    padding: 10px 30px;
+#container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav a {
+#container-menu > img {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#menu a {
     text-decoration: none;
     text-align: center;
     padding: 10px;
+    font-size: large;
     font-family: var(--fonte-menu);
-    font-size: 1.3em;
-    color: var(--cor2);
-    border-radius: 5px;
+    color: var(--cor0);
+    margin-right: 20px;
 
 }
 
-nav a:hover {
+#menu {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#menu > a:hover {
     background-color: var(--cor3);
-    color: var(--cor4);
+    color: #cc971c;
+    border-radius: 5px;
 }
 
 /* Cabeçalho do site */
