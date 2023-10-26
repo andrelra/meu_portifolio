@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sriracha&display=swap');
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #E0E2DB;
+    --cor2: #BEB7A4;
+    --cor3: #3D348B;
+    --cor4: #cc971c;
+    --cor6: #191716;
+
+    --fonte-default: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: 'Bebas', Sans-serif;
+    --fonte-textos: 'Roboto Condensed', sans-serif;
+    --fonte-menu: 'Oswald', sans-serif;
+}
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+ background-image: url(../imgs/bkg-3.png);
+ background-position: top right;
+ background-size: cover;
+}
+
+/*Menus superiores*/
+
+nav {
+    background-color: var(--cor6);
+    min-width:320px;
+    max-width: 900px;
+    margin: auto;
+    height: 50px;
+
+}
+
+#container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#container-menu > img {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#menu a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-family: var(--fonte-menu);
+    color: var(--cor0);
+    margin-right: 20px;
+
+}
+
+#menu {
+    margin-top: 5px;
+}
+
+#menu > a:hover {
+    background-color: var(--cor3);
+    color: #cc971c;
+    border-radius: 5px;
+}
+
+/* Cabeçalho do site */
+
+header {
+    position: relative;
+    min-width: 320px;
+    max-width: 900px;
+    height: 400px;
+    background: url(../imgs/pf-06.jpg) no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    box-shadow: 2px 2px 8px var(--cor6);
+}
+
+.container-header {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;    
+}
+.foto {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px var(--cor6);
+}
+
+header h1 {
+    top: 60px;
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    text-shadow: 1px 1px 0px var(--cor6);
+}
+
+header p {
+    top: 60px;
+    color: var(--cor0);
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0px var(--cor6);
+}
+
+.redessociais {
+    padding-top: 10px;
+}
+.redessociais > a > img {
+    width: 30px;
+    padding: 10px;
+}
+
+.redessociais > img {
+    width: 30px;
+}
+
+/*Corpo do site*/
+
+main {
+    background-image: url('../imgs/ColunaGrega-SemFundo.png');
+    background-size: cover;
+    background-position: left top;
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: -60px;
+}
+
+/* Parte superior do corpo do site*/
+
+section.container-main {
+    background-color:#3d348bee;
+    padding: 80px 10px 10px 10px;
+}
+
+div.personal-container {
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 20px;
+    font-family: var(--fonte-textos);
+    text-align: center;
+    
+}
+
+div.personal-container > h3 {
+    margin-bottom: 10px;
+    color: var(--cor2);
+}
+div.personal-container > h2 {
+    margin-bottom: 20px;
+    color: var(--cor2);
+}
+
+div.personal-container > p {
+    color: var(--cor2);
+    padding: 20px;
+}
+
+/* Parte inferior do corpo do site*/
+aside {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 85px;
+    font-family: var(--fonte-textos);
+}
+
+.titulo-miscelanea {
+    width: 900px;
+    margin: auto;
+    color: var(--cor2);
+    text-align: center;
+}
+/* Caixas Projetos, Blorgueirices e Exercícios*/
+
+div.miscelanea {
+    width: 200px;
+    height: 250px;
+    background-color:var(--cor4);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+div.miscelanea > a > img {
+    width: 30px;
+    padding: 20px;
+}
+
+div.miscelanea > a {
+    text-decoration: none;
+    color: var(--cor6);
+}
+.descricao-box {
+    padding: 10px 0px;
+
+}
+
+/* Caixas "Explorar" */
+
+#status1 {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    position:relative;
+    top: 15%;
+    border: 1px solid var(--cor6);
+    border-radius: 5px;
+    height: 20px;
+    padding: 20px;
+}
+
+#status2 {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    position:relative;
+    top: 15%;
+    border: 1px solid var(--cor6);
+    border-radius: 5px;
+    height: 20px;
+    padding: 20px;
+}
+
+#status3 {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    position:relative;
+    top: 8%;
+    border: 1px solid var(--cor6);
+    border-radius: 5px;
+    height: 20px;
+    padding: 20px;
+}
+
+.miscelanea:hover {
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+.miscelanea:hover h2 {
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+.miscelanea:hover p {
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+#status1:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+#status2:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+#status3:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+footer {
+    background-color: var(--cor4);
+    min-width: 320px;
+    max-width: 900px;
+    color: var(--cor0);
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    padding: 10px;
+}

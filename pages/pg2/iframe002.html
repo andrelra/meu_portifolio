@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section id="cabecalho">
+            <h1>MEUS EXERCÍCIOS DO CURSO DE HTML5 E CSS3</h1>
+            <h2>Do<a href="https://cursoemvideo.com" target="_blank">Curso em Vídeo</a> de Gustavo Guanabara</h2>
+        </section>
+    </header>
+    <main>
+        
+            <h1>EXERCÍCIOS EM IFRAME</h1><p>
+                
+                Existem alguns sites, como Google, que, por proteção, não se deixam abrir em iframe. É imporante saber que iframes tem prós e contra a sua utilização. Podemos reduzir os riscos de seu uso.
+            </p>
+            <p id="infoclique">Clique em qualquer link da lista abaixo para que a página apareça no iframe.</p>
+
+        <section id="links">
+                <ul>
+                    <!--É preciso colocar 'name', isto é, um nome para o iframe, e colocar esse nome em 'targe' do <a>.-->
+                    <li><a href="paginas-extras/site1/android.html" target="frame">Desafio Andróid</a></li>
+                    <li><a href="paginas-extras/site2/index.html" target="frame">Desafio Paralaxe</a></li>
+                    <li><a href="paginas-extras/site3/index.html" target="frame">Meu site</a></li>
+                    <li><a href="https://python.org.br/" target="frame">Python Brasil</a></li>
+                </ul>
+        </section>
+        <iframe id="tela" src="" name="frame">
+            <p>Infelizmente seu navegador não é compatível com isso.</p>
+        </iframe>
+    </main>
+    <footer>
+        <p> &copy;2003 | Desenvolvido por André ArÔncio</p>
+    </footer>
+</body>
+</html>
