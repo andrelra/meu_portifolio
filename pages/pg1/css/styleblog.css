@@ -255,6 +255,7 @@ ol {
 
 #lista ul {
     list-style-type: none;
+    text-align: center;
 }
 
 /*Conceito de sentido último*/
