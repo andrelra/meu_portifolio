@@ -292,7 +292,7 @@ div.miscelanea > a {
 }
 
 footer {
-    background-color: var(--cor4);
+    background-color: var(--cor6);
     min-width: 320px;
     max-width: 900px;
     color: var(--cor0);
