@@ -130,6 +130,12 @@ main {
     margin: auto;
 }
 
+time {
+    font-family: var(--fonte-menu);
+    color: white;
+
+}
+
 article {
     padding: 20px;
     text-align: justify;
