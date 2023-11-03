@@ -198,13 +198,13 @@ section#foto {
     top: 20px;
 
   
-    margin: 0px 10px;
+   
     border: 1px solid white;
     border-radius: 20px;
 
     min-width: 150px;
     max-width: 350px;
-    min-height: 200px;
+    min-height: 180px;
     max-height: 230px;
 }
 
@@ -231,8 +231,8 @@ section#container-artigos {
 .q-artigos {
     background-color: var(--cor3);
     border: 1px solid var(--cor0);
-    min-width: 250px;
-    max-width: 330px;
+    min-width: 200px;
+    max-width: 310px;
     height: 40%;
     margin: 10px 10px;
     padding: 10px;
