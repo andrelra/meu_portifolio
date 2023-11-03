@@ -194,13 +194,16 @@ section#foto {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    top: 20px;
+
   
-    margin: 10px 10px;
+    margin: 0px 10px;
     border: 1px solid white;
     border-radius: 20px;
 
     min-width: 150px;
-    max-width: 250px;
+    max-width: 550px;
     min-height: 200px;
     max-height: 230px;
 }
@@ -233,7 +236,7 @@ section#container-artigos {
     margin: 10px 10px;
     padding: 10px;
     border-radius: 15px;
-    font-family: var(--fonte-destaque);
+    
     
 }
 
@@ -252,14 +255,16 @@ section#container-artigos {
     align-items: flex-end;
 }
 
-.q-artigos h2 {
+.q-artigos > a > h2 {
     font-size: 1.2em;
     margin-top: 10px;
+    font-family: var(--fonte-menu);
 }
 
 .q-artigos p {
     font-size: 0.9em;
     margin: 10px 0px;
+    font-family: var(--fonte-menu);
 }
 .q-artigos h1 {
     display: block;
