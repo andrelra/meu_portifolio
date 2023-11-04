@@ -45,6 +45,7 @@ nav {
 
 #container-menu {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -77,6 +78,25 @@ nav {
     border-radius: 5px;
 }
 
+#bt-voltar {
+    background-color: rgb(82, 82, 8);
+    width: 70px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: var(--fonte-menu);
+    font-weight: bolder;
+
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#bt-voltar:hover {
+    background-color: #cc971c;
+    color: #3D348B;
+}
 /* Cabeçalho */
 
 header {
