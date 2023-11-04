@@ -278,8 +278,7 @@ section#foto figcaption {
     font-family: var(--fonte-menu);
     color: var(--cor4);
     text-align: center;
-    font-size: 1em;
-    text-decoration: underline;
+    font-size: 1.3em;
     margin-bottom: 10px;
 }
 
