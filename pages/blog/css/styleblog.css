@@ -105,7 +105,7 @@ div#header {
     height: 100%;
     border-top-right-radius:40px;
     border-bottom-left-radius:40px;
-    box-shadow: 2px 2px 3px black;
+    
 }
 .cabecalho {
     display: inline-block;
@@ -154,9 +154,11 @@ main {
 section#container {
     position: relative;
     background-color: #6059a1;
-    max-width: 550px;
-    margin: auto;
+    min-width: 450px;
+    max-width: 400px;
+    
     margin-bottom: 10px;
+    margin: auto;
    
     border-radius: 10px;
     border:1px solid white;
@@ -165,12 +167,11 @@ section#container {
     justify-content: space-evenly;
     flex-wrap: wrap;
     box-shadow: 2px 2px 3px black;
-
 }
 
 div#titulo-pg {
     background-color: #3f3697;
-    width: 200px;
+    width: 130px;
     border: 1px solid white;
     border-top-right-radius:40px;
     border-bottom-left-radius:40px;
@@ -187,6 +188,7 @@ div#titulo-pg {
 
 div#titulo-pg h1 {
     font-family: var(--fonte-destaque);
+    font-size: 1rem;
 }
 
 section#foto {
@@ -196,6 +198,7 @@ section#foto {
     flex-direction: column;
     position: relative;
     top: 20px;
+    text-align: center;
 
   
    
@@ -218,8 +221,14 @@ section#foto img {
 section#foto figcaption {
     font-family: var(--fonte-menu);
     color: white;
-    padding-left: 10px;
     text-align: center;
+}
+
+#sobre-mim {
+    font-family: var(--fonte-menu);
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--cor0);
 }
 
 section#container-artigos {
