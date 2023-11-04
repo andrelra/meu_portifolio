@@ -144,6 +144,7 @@ main {
     min-width: 300px;
     max-width: 900px;
     width: 100%;
+    height: 100vh;
     margin: auto;
 
 }
@@ -201,7 +202,7 @@ div#titulo-pg h1 {   /*H1 - "ARTIGOS" */
 
 .q-artigos {
     background-color: var(--cor3);
-    border: 2px solid var(--cor2);
+    border: 5px solid var(--cor2);
     min-width: 19rem;
     max-width: 310px;
     margin: 10px 10px;
@@ -215,6 +216,17 @@ div#titulo-pg h1 {   /*H1 - "ARTIGOS" */
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px black;
+}
+
+.q-artigos:hover {
+    background-color: var(--cor6);
+    border: 2px solid var(--cor4);
+}
+
+.q-artigos a:hover {
+    background-color: var(--cor2);
+    color: white;
+    
 }
 
 .q-artigos > a > time {
@@ -238,7 +250,7 @@ div#titulo-pg h1 {   /*H1 - "ARTIGOS" */
     font-family: var(--fonte-menu);
 }
 
-/* MINHA FOTO */
+/* MINHA FOTO - container da foto */
 
 section#foto {
     text-align: center;
@@ -248,17 +260,19 @@ section#foto {
 
     min-width: 15rem;
     max-width: 300px;
-    
 
     padding: 15px;
 }
 
+/* foto */
+
 section#foto img {
     border-radius: 50%;
     margin: 0px 5px;
-    border: 1px solid var(--cor4);
-    box-shadow: 2px 2px 2px black;
+    border-style:inset;
 }
+
+/* textos da foto */
 
 section#foto figcaption {
     font-family: var(--fonte-menu);
