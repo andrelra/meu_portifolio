@@ -148,7 +148,7 @@ main {
 
 }
 
-/* ARTIGOS */
+/* ARTIGOS - container pai */
 
 section#container {
     margin-bottom: 10px;
@@ -171,20 +171,20 @@ section#container-artigos {
 
     background-color: #6059a1;
     border-radius: 10px;
-    border:1px solid white;
+    border:1px solid var(--cor2);
     box-shadow: 2px 2px 3px black;
 }
 
 div#titulo-pg {
     background-color: #3f3697;
     width: 130px;
-    border: 1px solid white;
+    border: 2px solid var(--cor2);
     border-top-right-radius:40px;
     border-bottom-left-radius:40px;
     padding: 10px;
     font-size: 0.8em;
     text-align: center;
-    color: white;
+    color: var(--cor4);
     margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -201,7 +201,7 @@ div#titulo-pg h1 {   /*H1 - "ARTIGOS" */
 
 .q-artigos {
     background-color: var(--cor3);
-    border: 1px solid var(--cor0);
+    border: 2px solid var(--cor2);
     min-width: 19rem;
     max-width: 310px;
     margin: 10px 10px;
@@ -229,6 +229,7 @@ div#titulo-pg h1 {   /*H1 - "ARTIGOS" */
     font-size: 1.2em;
     margin-top: 10px;
     font-family: var(--fonte-menu);
+    color: var(--coro);
 }
 
 .q-artigos p {
@@ -241,13 +242,12 @@ div#titulo-pg h1 {   /*H1 - "ARTIGOS" */
 
 section#foto {
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid var(--cor2);
     border-radius: 20px;
     box-shadow: 2px 2px 3px black;
 
-    background-color: var(--cor2);
     min-width: 15rem;
-    max-width: 350px;
+    max-width: 300px;
     
 
     padding: 15px;
@@ -256,11 +256,13 @@ section#foto {
 section#foto img {
     border-radius: 50%;
     margin: 0px 5px;
+    border: 1px solid var(--cor4);
+    box-shadow: 2px 2px 2px black;
 }
 
 section#foto figcaption {
     font-family: var(--fonte-menu);
-    color: white;
+    color: var(--cor4);
     text-align: center;
     font-size: 1em;
     text-decoration: underline;
